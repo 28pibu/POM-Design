@@ -37,7 +37,7 @@ public class RegisterPage {
         phoneNumberElement.sendKeys(phoneNumberValue);
         return this;
     }
-    public  RegsterPage setemailId(String emailIdValue){
+    public  RegisterPage setemailId(String emailIdValue){
         TestApp.getInstance().waitUntilNextElementAppears(By.name(emailElementValue),10);
         WebElement emailIdElement = driver.findElement(By.id(emailElementValue));
         emailIdElement.sendKeys(emailIdValue);
