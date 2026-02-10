@@ -18,13 +18,13 @@ public class RegeisterUserTest4 {
     }
     @Test
     public void testRegisterUser() {
-        String firstName = "Kevishon";
+        String firstName = "Levishon";
         String lastName = "Peter";
         registerSuccessPage = registerPage
                 .setFirstName(firstName)
                 .setLastName(lastName)
                 .setPhoneNumber("0750342108")
-                .setemailId("kevishon42@gmail.com")
+                .setemailId("levishon42@gmail.com")
                 .setcountryName("SRI LANKA")
                 .setuserName("Admin")
                 .setpassword("admin@123456").setConfirmpassword("admin@123456").clickOnSubmitButton();
